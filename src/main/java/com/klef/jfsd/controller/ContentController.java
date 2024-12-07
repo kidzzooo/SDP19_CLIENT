@@ -18,7 +18,7 @@ import com.klef.jfsd.service.ContentService;
 
 import jakarta.mail.internet.ContentType;
 
-@CrossOrigin
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/contents")
 public class ContentController {

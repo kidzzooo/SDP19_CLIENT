@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.klef.jfsd.model.User;
 import com.klef.jfsd.service.UserService;
 
-@CrossOrigin
+@CrossOrigin(origins = "*")	
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
